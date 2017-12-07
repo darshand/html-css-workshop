@@ -1,0 +1,7 @@
+h1 {
+  text-shadow: 4px 4px ;
+  /* we can give color to shadow */
+  text-shadow: 4px 4px grey;
+  /* we can blur the shadow */
+  text-shadow: 4px 4px 10px red;
+}

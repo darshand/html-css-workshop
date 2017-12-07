@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms</title>
+  <!-- everywhere we see forms, registrations, logic, etc, etc -->
+</head>
+<body>
+  <form>
+    <!-- accepts 2 main attribute 'action' and 'method' -->
+    <!--  action - which specify where to send form data action="https://www.myfacebook.com/user". When user clicks on submit buttom form data will go to this url-->
+    <!-- method - What type of form get/post -->
+    <input type="text"> <!-- self closed tag --> <br>
+    <!-- input tag also take extra attribute called name. To easily understand what is the data coming from form.
+    ex: <input name="first_name" type="text"> -->
+    <input type="password"> <br>
+    <input type="submit">
+    <button>Log In</button> <br> <br>
+    <input type="checkbox">
+    <input type="radio">
+    <br><br>
+    <select>
+      <option>2017</option>
+      <option>2018</option>
+      <option>2019</option>
+    </select>
+  </form>
+
+  <br>
+  <br>
+  <form action="http://www.asdf.com/resource", method="post">
+    <label for="first_name">First Name</label>
+    <input name="first_name" type="text"> <br>
+    <label for="pass">Password</label>
+    <input name="pass" type="password" > <br>
+    <label for="check">Passed?</label>
+    <input type="checkbox"  >
+    <input type="submit" name="submit" id="">
+  </form>
+</body>
+</html>

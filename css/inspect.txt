@@ -1,0 +1,17 @@
+When we select inspect option, by right click on web page or any content we will get inspection window.
+
+1. Element
+  This section will have browser specific html interpretation. which is almost similar to html code we have written.
+
+2. Console
+  We can write javascript code here and try  out.
+
+3. Mouse icon
+  Will select element and its line.
+
+4. Style (right side of inspect tab)
+  Will display all the css of html document. We can also select element and edit/change css temporarily.
+  (we can go to any website and can edit style temp css and see how it looks )
+
+5. Computed
+  Show all the computed css values of elements for browser. Like values of default values.

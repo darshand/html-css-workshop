@@ -1,0 +1,13 @@
+/* gradient is like combination of 2 colors */
+body {
+  background: linear-gradient(white, black)
+  /* these gradients directions can be changed */
+  /* background: linear-gradient(to left, blue, black) */
+  /* or to right */
+  /* or to bottom right */
+}
+
+/* oopps aplied ubnormally */
+html {
+  height: 100%;
+}

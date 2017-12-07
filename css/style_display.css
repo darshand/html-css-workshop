@@ -1,0 +1,55 @@
+/* If we inspect our index_style.html on hovering of all the elements we see dispalay is set to block. i.e display: block;
+
+which means blue color content is occupied full available width of parent, in this case parent is body(all other tagas are inside body). How much parent allows only that much is used.
+
+Which blocks the width, don't allow anything to come in that width.
+*/
+
+
+/* If we change the width of the body then child tag's width also changes.*/
+body {
+  width: 600px;
+}
+
+/* If we set any child width to less than parent , then child's child width will be same as child width !!!!!*/
+div {
+  width: 400px;
+}
+
+/* outer tag than div are now 600px but div's h1's width is 400px now */
+
+/* we can OVERRIDE this display block */
+h2 {
+  display: inline;
+}
+/* When we inline h2 tag, h2 tag looses width property */
+
+/* For width to get back, we have inline-block value */
+h2 {
+  display: inline-block;
+}
+/* now we can set width for h2 blocks. We can also do it in inspect element's styles tab (element.style) temp or as follow */
+
+h2 {
+  display: inline-block;
+  width: 400px;
+}
+
+
+/* There is one more value to display, 'none'. which removes the element from rendering  */
+
+/*
+h2 {
+   display: none;
+   width: 300px;
+}
+*/
+
+/* There is one more property for display, visibility. Which hides the content but element's space will be there in the web page as invisible.
+
+h2 {
+  visibility: hidden;
+  width: 300px;
+}
+
+*/

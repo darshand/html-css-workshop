@@ -1,0 +1,76 @@
+/* if we have multiple tags of same type, applying a css will apply for all the tags. What to do to apply css for only selected tags of same type?
+
+SELECTORS!!
+
+imp CLASS selector, ID selector */
+
+
+/* We can use class selector like bellow */
+.red-text {
+  color: red;
+}
+
+/* We can re use the class css for other tags also. just add class name to tag */
+
+.underline {
+  text-decoration: underline;
+}
+
+/* we can merge two classes with just specifying spacce between class names */
+
+/* There is also a sister attribute  called id attribute. From html we can define id='ID_name' like class. */
+
+#blue_text {
+  color: blue;
+}
+
+/* BUT, what is the difference between id and class css?
+  Class css we can use as many times as we want, but id attribute we have to use only once in web page (ex: logo, header or footer. These will appear only once in a page)
+*/
+
+
+
+/* CSS RESET!!!!
+There is a curios reset selector which apply to all the elements in the document
+
+* {
+  margin: 0;
+  padding: 0;
+}  */
+
+
+/* GROUP COMMON STYLES
+h2, p, .underline {
+  text-align: center;
+}
+*/
+
+
+/* NESTED ELEMS
+If 
+  <div class="parent-div">
+    <p> nested para </p>
+    <div>
+      <p> further nested para </p>
+    </div>
+  </div>
+
+
+
+  Then by doing bellow
+
+  div p {
+    color: blue;
+  }
+
+will apply style to any para which is inside div tag, which incase of above condition both para will apply blue color, cz both paragraph are under div tag.
+
+This can also be demonstrated by giving a class name to div like,
+.parent-div p {
+  color: blue;
+}
+
+*/
+
+
+/* https://www.w3schools.com/cssref/css_selectors.asp */

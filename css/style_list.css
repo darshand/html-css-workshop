@@ -1,0 +1,9 @@
+/* https://www.w3schools.com/css/css_list.asp */
+li {
+  list-style-type: none;
+  /* removes bullet point */
+  float: left;
+  /* aligns them to one aafter another to their left */
+  margin-right: 10px;
+  /* give some space to each element */
+}

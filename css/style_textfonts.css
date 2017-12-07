@@ -1,0 +1,25 @@
+/* reference: https://www.w3schools.com/css/css_text.asp */
+h1 {
+  font-size: 50px;
+  font-family: Courier, Arial, Helvetica, sans-serif;
+  /* we can also specify different font families if given font won't work or not available in system or browser  */
+ /* like font-family: Arial, Courier New, Courier, monospace; */
+}
+
+/* we can also specify font size in em  */
+ h2 {
+   font-size: 3em;
+   /* that is 3 times more than parent */
+   font-family: 'Bungee', cursive; /* font family from google */
+   /* if they are not present additional will be showed */
+   /* font-family: 'Bungee', cursive,Courier New, Courier; */
+ }
+
+ h3 {
+   text-align: center;
+   text-decoration: line-through;
+ }
+
+ p {
+   text-decoration: underline;
+ }

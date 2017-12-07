@@ -1,0 +1,26 @@
+/* we can control the spacing around element using box model, i.e margin, border, padding */
+/* need to demo this with inspect element and showing box model */
+h1 {
+  /* by default some values will be present but we can override them */
+  padding: 20px;
+  /* padding which touches the actual content */
+  margin: 0;
+  border: 5px solid black;
+
+  /* we can also add padding, margin to sides of the element */
+  /* padding-left: 10px; */
+  /* margin-top: 20px; */
+
+
+  /* we can also specify sides by 4 numbers */
+  /* padding: 20px;  applied to all 4 sides */
+  /* padding: 30px 10px; applies 30px to top and bottom and 10px to left and right*/
+  /* padding: 30px 10px 5px; applies 5px to bottom */
+  /* padding: 30px 10px 5px 20px; */
+  /*  TOP RIGTH BOTOM LEFT */
+
+  /* using margin we can also set content to center */
+  /* width: 200px; */
+  /* margin: 0 auto; */
+  /* o for top and bottom and auto does divide element equally by space */
+}
