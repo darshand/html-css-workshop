@@ -9,3 +9,8 @@
   - write numbers directly, they are considered as integers, write       number with decimal, it will recognise them as float. Write a        value within quote, they are considered as strings.
 - No semicolon at the end of line!
 
+- single line comment starts with #
+- mutltiline comment starts with any of the symbol!!
+  =begin
+   anything goes inside is considered as comments
+  =end
