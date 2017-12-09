@@ -1,0 +1,11 @@
+- Ruby is a developer friendly scripting language.
+- Complete Object Oriented.
+- Easy to learn, its just like english.
+
+- Ruby files end with .rb extension. i,e example.rb
+- To run a ruby file use 'ruby example.rb'
+
+- No need to specify data type, ruby does it for you!
+  - write numbers directly, they are considered as integers, write       number with decimal, it will recognise them as float. Write a        value within quote, they are considered as strings.
+- No semicolon at the end of line!
+
