@@ -2,6 +2,10 @@
 - Complete Object Oriented.
 - Easy to learn, its just like english.
 
+- INSTALLATION
+  - using RVM to install Ruby and Rails
+  - Gemsetes
+
 - Ruby files end with .rb extension. i,e example.rb
 - To run a ruby file use 'ruby example.rb'
 

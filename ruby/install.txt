@@ -1,0 +1,40 @@
+Installing  Ruby and RubyOnRails using RVM
+
+Operating System - Ubuntu 16.04 LTS
+
+RVM - Ruby Version Manager
+(https://rvm.io/)
+
+- Add gpg keys to your System
+    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+
+- Use curl to get stable version of RVM
+    \curl -sSL https://get.rvm.io | bash -s stable
+    (if curl is not installed: sudo apt-get install curl )
+
+- Reload shell configuration
+    source ~/.rvm/scripts/rvm
+    or
+    source /usr/local/rvm/scripts/rvm
+
+- Check available ruby version in installed rvm
+    rvm list known
+
+- Install ruby version
+    rvm install 2.4
+
+- Check installed ruby version
+    ruby --version
+
+- Install rails gem
+    gem install rails
+
+- Check installed rails version
+    rails -v
+
+- Create new rails projec
+    rails new firstApp
+
+
+
+
