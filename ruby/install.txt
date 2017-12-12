@@ -24,17 +24,24 @@ RVM - Ruby Version Manager
     rvm install 2.4
 
 - Check installed ruby version
-    ruby --version
+    ruby -v
 
 - Install rails gem
     gem install rails
+    (--no-ri --no-rdoc : for lighter installation )
 
 - Check installed rails version
     rails -v
 
 - Create new rails projec
-    rails new firstApp
+    rails new <MyRailsAppName>
 
+(we can optionally maintain different gemset version for different ruby version or for different project
+
+'rvm gemset create myApp'
+
+and install additional gems
+)
 
 
 

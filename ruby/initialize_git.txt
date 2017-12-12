@@ -1,0 +1,43 @@
+Ref: https://git-scm.com/
+intro: It takes snapshots of your code whenever you do modification to your codebase. So that we maintain a version history of our changes.
+
+
+Create a github account
+  https://github.com/
+
+Create a repository in Github
+  click on new repository
+  update/add repository name
+  make it public repository
+  Create
+
+Install git to your machine
+  sudo apt-get install git
+
+configure git (one time in a system)
+  git config --global user.name "Amar"
+  git config --global user.email "amar@akbar.ant" (no quote if don't work)
+
+initialize git repository
+  go to your porject folder and do
+    'git init' (one time, at the very beginning of the project)
+
+Set created github.com repository to this repository
+  git remote add origin <link of created repo>
+
+Verify remote located repo
+  git remote -v
+
+
+See git tracked/untracked files
+  git status
+
+Add tracked files to git
+  git add . (to add all the file and folders which are modified)
+  git add <filename> (add particular file)
+
+Give a name to your modified changes
+  git commit -m 'explain what you have modified'
+
+Saving your file to github
+  git push origin master
