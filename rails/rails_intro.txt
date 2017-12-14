@@ -1,6 +1,15 @@
 Creating new rails app/project
   rails new appname
 
+Creating a controller
+  rails generate controller <controller_name> <method_name>
+  ex: rails g controller pages home
+    - which will creat 
+      - controller file in app/controller folder
+      - view file (html.erb) in app/views
+      - route for this file in config/routes.ruby
+      - and other helper files and test files.
+
 Directory structure
   app
   db
