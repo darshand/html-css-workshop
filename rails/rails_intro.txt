@@ -64,3 +64,19 @@ Adding bootstrap
       - @import bootstrap-sprockets;
       - @import bootstrap;
     - to check, add a div around yield in app/views/layouts/application.html.erb with div class 'container'. and check application (restart if not working)
+
+Adding bootstrap navbars
+  - Goto getbootstrap.com and select appropriate version document for reference and go to navbar section.
+  - Refere/read and select required code for our app and add it to application.html.erb cz we need this bar in all pages.
+    - By default class will be container-fluid, change it to container.
+    - Select nav bar brand and list to add nav bar elements.
+    - Link them appropriately (brand to home[/], and other with routes[/about, /contact])
+
+Adding Background Gradients
+  - Go to any online css Gradients generator sites (https://uigradients.com)
+  - Select suitable gradient css for your application.
+  - Since we need this grandient as background for all our pages set this to body tag in application.css.scss file.
+  - If we reload body will be changed, but navbar color is default.
+  - So add navbar also with the same css code as of body (comma separated, body, .navbar { CSS })
+  - But still border of navbar is not changed, so we will hide border for navbar
+    - .navbar { border: none; }
