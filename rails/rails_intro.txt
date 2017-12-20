@@ -38,3 +38,29 @@ COMMON COMMANDS USED IN RAILS PROJECTS
   bundle install
     - Will update the versions of gems.
     - if we change the gem version manually, it will update gem to specified version.
+
+Adding root route
+  - setting up root url is simpler. in route file, 
+    - root to: 'pages#home'
+    - or short hand root '<controller>#<action>', i,e root 'pages#home'
+
+Adding routes
+  - Adding routes is also simpler
+    - <http type> '<route_name>', to: '<controller_name>#<action_name>'
+    - get 'about', to: 'pages#about'
+
+Installing fonts
+  - I am installing google fonts which are under OFL(Open Font License) and we are free to use, modify and distribute.
+  - goto fonts.google.com and select which font you like. on selecting fonts we will get a link to add those to application. copy that link and paste it in app/views/layouts/application.html.erb. Now fonts are available to our project. whenever our project runs it goes to that link and fetches fonts.
+  - Using those fonts are simple, go to app/assets/stylesheets/application.css and add font-family: '<font name>', <backup font name>
+
+Adding bootstrap
+  - We can add bootstrap to our project as external link
+    - go to https://getbootstrap.com/ site, copy bootstrap cdn css link and paste it into app/views/layouts/application.html.erb.
+  - BUT, we have a gem for doing all these.
+    - add 'gem bootstrap-sass' to gemfile and bundle install.
+    - rename app/assets/stylesheets/application.css to app/assets/stylesheets/application.css.scss
+    - import bootstrap
+      - @import bootstrap-sprockets;
+      - @import bootstrap;
+    - to check, add a div around yield in app/views/layouts/application.html.erb with div class 'container'. and check application (restart if not working)
