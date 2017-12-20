@@ -80,3 +80,15 @@ Adding Background Gradients
   - So add navbar also with the same css code as of body (comma separated, body, .navbar { CSS })
   - But still border of navbar is not changed, so we will hide border for navbar
     - .navbar { border: none; }
+
+Limiting gradients to Home page
+  - Remove class='container' for whole app.
+  - Added grandient to navbar background.
+  - Fix margin of text with navbar.
+  - Add padding to look more nice.
+
+Navbar text coloring
+  - We can try to set colors of any css tag in browser by inspecting that element.
+  - But while using bootstrap, it will not work the same. Because it maintain some rules called CSS specificity.
+  - We have to inspect and see where color are overriding and need to copy that css path inorder to set color/sttyle.
+  - Similar way, we can check hover styles in inspect tool by selecting :hov in right end side of inspect tool.
